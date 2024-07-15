@@ -68,7 +68,7 @@ export const Layout = () => {
 
                         <div className="search-form">
                         <form onSubmit={handleSubmit}>
-                            <input type="text" className="search-input" name="search" placeholder="Search..." onChange={ev => setTerm(ev.target.value)} required />
+                            <input type="text" className="search-input" name="term" placeholder="Search..." onChange={ev => setTerm(ev.target.value)} required />
                             <button type="submit" className="search-button"> <i className="fa-solid fa-magnifying-glass"></i> Search</button>
                         </form>
                         </div>

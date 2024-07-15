@@ -9,6 +9,7 @@ export const FrontRoutes = () => {
                 <Route index element={<Pages.Home/>}/>
                 <Route path="category/:id" element={<Pages.Category/>}/>
                 <Route path="article/:id" element={<Pages.Article/>}/>
+                <Route path="search" element={<Pages.Search />} />
             </Route>
         </Routes>
     </BrowserRouter>
