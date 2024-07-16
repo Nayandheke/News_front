@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import "../../src/App.css"
-import { Earth, Heading, MainNews,} from "../Components"
+import { BannerList, Heading, MainNews,} from "../Components"
 import { News } from "../Components"
 // import { NewsCard } from "../Components"
 // import { World } from "../Components/World"
@@ -29,7 +29,7 @@ export const Home = () => {
     return <>
         <div className="container">
             <h2 className="welcome">Welcome to MetroNews.com</h2>
-            <MainNews/>
+            <BannerList article={[...featured].splice(0,3)} loading={loading}/>
         </div>
 
 

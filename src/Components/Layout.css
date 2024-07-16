@@ -143,6 +143,7 @@ body {
     }
 }
 .banner {
+    width: 1055px;
     border-top: 4px solid #333333;
     background-color: #ffffff;
     padding: 10px;
