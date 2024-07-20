@@ -16,13 +16,14 @@ export const Category = () => {
     http.get(`categories/${params.id}/articles`)
         .then(({ data }) => {
             setCategory(data)
+       
 
             return http.get(`categories/${params.id}/articles`)
         })
         .then(({ data }) => setArticles(data))
         .catch(err => {})
         .finally(() => setLoading(false))
-        // console.log(articles);
+        console.log(articles);
 }, [params.id])
   return (
     <>
@@ -30,7 +31,8 @@ export const Category = () => {
         <Loading />
       ) : (
         <div className="container">
-            <Heading title={category?.name || "Category"} />
+
+            <Heading title={category.name } />
           <div className="newsCard">
             {Array.isArray(articles) && articles.length > 0 ? (
               articles.map(article => (

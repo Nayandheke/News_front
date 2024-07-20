@@ -40,16 +40,16 @@ export const Layout = () => {
                     <div className="right-side">
                     <ul>
                         <li>
-                        <h2><i className="fa-brands fa-facebook"></i></h2>
+                        <h2><i className="fa-brands fa-facebook "></i></h2>
                         </li>
                         <li>
-                        <h2><i className="fa-brands fa-twitter"></i></h2>
+                        <h2><i className="fa-brands fa-twitter "></i></h2>
                         </li>
                         <li>
-                        <h2><i className="fa-brands fa-instagram"></i></h2>
+                        <h2><i className="fa-brands fa-instagram "></i></h2>
                         </li>
                         <li>
-                        <h2><i className="fa-brands fa-youtube"></i></h2>
+                        <h2><i className="fa-brands fa-youtube "></i></h2>
                         </li>
                     </ul>
                     </div>

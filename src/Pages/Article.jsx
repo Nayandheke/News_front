@@ -32,10 +32,10 @@ export const  Article = () => {
                         <h3><i className="fas fa-calendar-days"></i> {article.createdAt}</h3>
                     </div>
                     <div className="socialMedia">
-                        <a href="#"><i className="fab fa-facebook"></i></a>
-                        <a href="#"><i className="fab fa-twitter"></i></a>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
-                        <a href="#"><i className="fab fa-linkedin"></i></a>
+                        <a href="#"><i className="fab fa-facebook facebook"></i></a>
+                        <a href="#"><i className="fab fa-twitter twitter"></i></a>
+                        <a href="#"><i className="fab fa-instagram instagram"></i></a>
+                        <a href="#"><i className="fab fa-linkedin linkedin"></i></a>
                     </div>
                 </div>
             </div>

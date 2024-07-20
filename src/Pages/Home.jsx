@@ -39,19 +39,5 @@ export const Home = () => {
                 <ArticleList article={[...latest].splice(0,3)} loading={loading}/>
             </div>
         </div>
-        {/* <div className="container">
-            <Link to="/sports"><Sports/></Link>
-            
-        </div>
-        
-        <div className="container">
-            <Link to="/politics"><Politics/></Link>
-        </div>
-        <div className="earth">
-            <Link to="/earth"><Earth/></Link>
-        </div>
-        <div className="container">
-            <Link to="/world"><World/></Link>
-        </div> */}
     </>
 }
