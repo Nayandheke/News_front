@@ -87,13 +87,6 @@ export const Layout = () => {
                 <footer>
                     <div className="container">
                     <h2>Explore the MetroNews</h2>
-                    <div className="content">
-                        <p>Home</p>
-                        <p>Sports</p>
-                        <p>Politics</p>
-                        <p>Earth</p>
-                        <p>World</p>
-                    </div>
                     <div className="content1">
                         <p>Terms of Use</p>
                         <p>Privacy Policy</p>
@@ -102,7 +95,7 @@ export const Layout = () => {
                         <p>Parental Guidance</p>
                         <p>Advertise with us</p>
                     </div>
-                    <p>Copyright © 2024 MetroNews. The MetroNews is not responsible for the content of external sites. Read about our approach to external linking.</p>
+                    <p className="copyright">Copyright © 2024 MetroNews.</p>
                     </div>
                     
                 </footer>
